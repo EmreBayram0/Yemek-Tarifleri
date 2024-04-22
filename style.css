@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 237, 237);
+}
+
+#searchBar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    width: 320px;
+    height: 40px;
+    border-radius: 16px;
+    border: 2px solid orange;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#searchBar:focus {
+    outline: none;
+    border: 3px solid red;
+}
+
+
+.fa-bowl-food {
+    position: relative;
+    left: 500px;
+    top: 20px;
+    font-size: 48px;
+    color: orange;
+}
+
+.loginSignDiv {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: orange;
+    position: absolute;
+    left: 62%;
+    height: 40px;
+    width: 130px;
+    top: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-user {
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+.loginSignDiv p {
+    position: relative;
+    left: 45px;
+    bottom: 36px;
+}
+
+.sectionsContainer {
+    background-color: rgb(255, 135, 66);
+    text-align: center;
+    position: relative;
+    top: 40px;
+    height: 70px;
+}
+
+.sectionsContainer ul {
+    display: inline-flex;
+}
+
+.sectionsContainer ul li {
+    position: relative;
+    bottom: 16px;
+    width: 130px;
+    height: 70px;
+    list-style: none;
+}
+
+.sectionsContainer ul li a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+.sectionsContainer ul li a:hover {
+    background-color: rgb(143, 60, 60);
+    transition: all 1s;
+}
+
+.foodİmageContainer img {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 240px;
+    left: 330px;
+    border-radius: 8px;
+}
+
+.previousFoodİmage {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 345px;
+    top: 400px;
+    color: white;
+    font-size: 18px;
+}
+
+.nextFoodİmage {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 400px;
+    left: 875px;
+    color: white;
+    font-size: 18px;
+}
+
+.depictionDivs {
+    position: absolute;
+    left: 960px;
+    top: 240px;
+    cursor: pointer;
+}
+
+.depictionDivs div {
+    width: 300px;
+    height: 116px;
+    background-color: white;
+}
+
+.depiction1 {
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid rgb(237, 227, 227);
+}
+
+.depiction2 {
+    border-bottom: 1px solid rgb(237, 227, 227);
+}
+
+.depiction3 {
+    border-radius: 0 0 8px 8px;
+}
+
+.depictionDivs div img {
+    width: 120px;
+    height: 100px;
+    padding: 10px;
+}
+
+.depictionDivs div h3 {
+    position: relative;
+    left: 145px;
+    bottom: 135px;
+}
+
+.depictionDivs div p {
+    position: relative;
+    bottom: 140px;
+    left: 145px;
+    width: 150px;
+}
+
+.previousFoodİmage:hover,
+.nextFoodİmage:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.foodsDepictionCenter div {
+    width: 303px;
+    height: 340px;
+    position: absolute;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.depictionCenter1 {
+    top: 625px;
+    left: 330px;
+}
+
+.depictionCenter2 {
+    top: 625px;
+    left: 643px;
+}
+
+.depictionCenter3 {
+    top: 625px;
+    left: 956px;
+}
+
+.depictionCenter4 {
+    top: 1000px;
+    left: 330px;
+}
+
+.depictionCenter5 {
+    top: 1000px;
+    left: 643px;
+}
+
+.depictionCenter6 {
+    top: 1000px;
+    left: 956px;
+}
+
+.foodsDepictionCenter img {
+    width: 303px;
+    height: 150px;
+    border-radius: 8px 8px 0 0;
+}
+
+.foodsDepictionCenter div h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.foodsDepictionCenter div p {
+    overflow: hidden;
+    height: 95px;
+    padding-left: 5px;
+}
